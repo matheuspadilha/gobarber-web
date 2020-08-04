@@ -38,7 +38,7 @@ export const Container = styled.div<ContainerProps>`
     `}
 
   ${(props) =>
-    props.isFocused &&
+    props.isFilled &&
     css`
       color: #ff9000;
     `}
